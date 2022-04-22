@@ -59,6 +59,7 @@
         &:hover {
             color: red;
             transition:  0.5s ease;
+            transform: scale(120%);
         }
     }
 }
@@ -91,7 +92,7 @@
             background: none;
             background-color: rgb(220, 210, 210);
             color: black;
-            transition: 1.5s;
+            transition: 250ms;
             border: none;
         }
     }
