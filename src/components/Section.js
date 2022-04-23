@@ -3,13 +3,13 @@ import man2 from "./../assets/man2.jpg"
 
 const Section = () => {
   return (
-    <div className="section">
+    <div className="section" id="about">
         <div className="section__container">
             <div className="section__img">
                 <img src={man2} alt="" />
             </div>
             <div className="section__content">
-                <h1>Who is Dmitry</h1>
+                <h1>Who is John </h1>
                 <p>5 years experience in Web Developmentr</p>
                 <p>Professional UI & UX Designer</p>
                 <p>Project Manager at Google</p>

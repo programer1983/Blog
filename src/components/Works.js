@@ -9,7 +9,7 @@ import "./styles/Works.scss"
 
 const Works = () => {
   return (
-    <div className="works">
+    <div className="works" id="portfolio">
         <div className="works__section">
             <div className="cards">
                 <img src={react} alt="" />

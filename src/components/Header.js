@@ -23,22 +23,16 @@ const Header = () => {
                     <Close className="close" onClick={showMenu} />
                 </div>
                 <li>
-                    <Link to="/">Home</Link>
+                    <a href="#main">Home</a>
                 </li>
                 <li>
-                    <Link to="/">About</Link>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <Link to="/">Portfolio</Link>
+                    <a href="#portfolio">Portfolio</a>
                 </li>
                 <li>
-                    <Link to="/">Pages</Link>
-                </li>
-                <li>
-                    <Link to="/">Blog</Link>
-                </li>
-                <li>
-                    <Link to="/contact">Contact</Link>
+                    <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>

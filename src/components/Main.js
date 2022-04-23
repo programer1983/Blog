@@ -6,12 +6,12 @@ import man from "./../assets/man.png"
 
 const Main = () => {
   return (
-    <div className="main">
+    <div className="main" id="main">
         <div className="main__container">
             <div className="main__content">
                 <div className="text">
                     <p>Hey There!</p>
-                    <h1>I am Dmitry Grabovsky</h1>
+                    <h1>I am John Dorian</h1>
                     <p>Frontend developer</p>
                
                   <div className="icons">
