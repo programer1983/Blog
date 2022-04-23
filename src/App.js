@@ -2,6 +2,7 @@ import './App.scss';
 import Header from './components/Header';
 import Main from './components/Main';
 import Section from './components/Section';
+import Works from './components/Works';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
        <Header />
        <Main />
        <Section />
+       <Works />
     </div>
   );
 }
